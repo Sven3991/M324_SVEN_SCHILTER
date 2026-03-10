@@ -1,0 +1,28 @@
+{
+  "name": "m324_sven_schilter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sven3991/M324_SVEN_SCHILTER.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Sven3991/M324_SVEN_SCHILTER/issues"
+  },
+  "homepage": "https://github.com/Sven3991/M324_SVEN_SCHILTER#readme",
+  "dependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.3",
+    "globals": "^17.4.0",
+    "mocha": "^11.7.5",
+    "prettier": "^3.8.1"
+  }
+}
