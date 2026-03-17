@@ -18,6 +18,17 @@ services:
     networks:
       - mynet
 
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin-demo
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+    networks:
+      - mynet
+
 networks:
   mynet:
     driver: bridge
