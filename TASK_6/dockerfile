@@ -1,2 +1,3 @@
-FROM alpine:3.19
-CMD ["echo", "Hello World"]
+FROM mysql:latest
+
+RUN microdnf install -y nano && microdnf clean all
